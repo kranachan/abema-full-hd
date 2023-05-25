@@ -20,9 +20,4 @@ chrome.runtime.onInstalled.addListener(() => {
       },
     ],
   });
-
-  chrome.declarativeNetRequest.onRuleMatchedDebug.addListener(async () => {
-    const matchedRules = await chrome.declarativeNetRequest.getMatchedRules();
-    console.log(matchedRules);
-  });
 });
