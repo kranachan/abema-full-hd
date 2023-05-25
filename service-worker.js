@@ -14,7 +14,7 @@ chrome.runtime.onInstalled.addListener(() => {
         condition: {
           requestMethods: ["get"],
           initiatorDomains: ["abema.tv"],
-          requestDomains: ["vod-abematv.akamaized.net"],
+          requestDomains: ["akamaized.net"],
           regexFilter: "(180|240|480|720)/playlist.m3u8",
         },
       },

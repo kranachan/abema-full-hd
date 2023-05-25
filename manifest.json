@@ -4,7 +4,7 @@
   "description": "Force abema to load 1080P video.",
   "manifest_version": 3,
   "permissions": ["declarativeNetRequestWithHostAccess"],
-  "host_permissions": ["*://vod-abematv.akamaized.net/*", "*://abema.tv/*"],
+  "host_permissions": ["*://*.akamaized.net/*", "*://abema.tv/*"],
   "background": {
     "service_worker": "service-worker.js"
   }
